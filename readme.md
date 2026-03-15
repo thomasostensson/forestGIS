@@ -13,6 +13,8 @@ Techniques and applications used are:
 
 - PostGIS
 
+Links to maps are available at https://thomasostensson.github.io/forestGIS/
+
 Note: The target audience for this project is Swedish, therefore Swedish is the primary language used in the maps and documentation.
 
 
