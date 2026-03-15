@@ -13,34 +13,36 @@ Techniques and applications used are:
 
 - PostGIS
 
-Note that the target audience for this project is swedish, therefore swedish is the main language used.
+Note: The target audience for this project is Swedish, therefore Swedish is the primary language used in the maps and documentation.
 
 
 ## Data
 
-Using only open data from Swedish Skogsstyrelsen and Lantmäteriet:
+Only open data from Swedish authorities are used
+
+Skogsstyrelsen and Lantmäteriet:
 
 
 
 ## Method
 
-1. Import data to QGIS (Captain Obvius says Hi! :-D)
+1. Import data to QGIS.
 
 2. Trim data to correspond to the geographical externt of Sundsvall Municipalty, Sweden.
 
 3. Apply background map for orientation: 
 
-4. Calculations and comparisons using SQL (ex. st_intersect) and raster manipulation if applicable (perform calculations and change color of bands)
+4. Calculations and comparisons using SQL (e.g. st_intersect) and raster manipulation if applicable.
 
-5. Compress data to conform to QGIS database space limitations (in practice: make the maps small enough to fit in the storage space that QGIS Cloud Free provides).
+5. Compress data to conform to QGIS database space limitations (i.e.reduce map size to fit within the storage space that QGIS Cloud Free provides).
 
-6. Upload to QGIS
+6. Upload to QGIS Cloud
 
 
 ## Result
 
 The expected results varies from map to map. 
 
-And, neither of the maps present a total and correct answer to anything, further analysis and comparisons of the data presented is required. 
+None of the maps present a total and correct answer to anything, further analysis and comparisons of the data presented is required. 
 
-Note that the amount of compression used when compling the maps likely makes the data unusable for any real analysis; this project is for experimentayion purposes only, not to present a useful result.
+Note: Due to the amount of compression used when preparing the maps, the data is likely unusable for any real analysis. This project is intended for experimentation and learning purposes only.
